@@ -27,7 +27,7 @@ This is a simple C++ app for the Numworks Graphing Calculator made in an afterno
 - `Back`: Removes cells at the cursor's position
 - `Backspace`: Toggles Pause
 
-# Buildinghttps://www.numworks.com/engineering/software/build/
+# Building
 You'll need the embeded arm compiler, nodeJS 16, and a few python libraries, if you are on MacOS, Windows or a Debian based distro, Numworks provides instructions [here](https://www.numworks.com/engineering/software/build/). If like me you use Arch Linux, I'd recomend you use an AUR helper like [yay](https://github.com/Jguer/yay) and run the following command :
 ```
 yay -S base-devel arm-none-eabi-gcc numworks-udev nvm nodejs npm
