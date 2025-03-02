@@ -33,3 +33,11 @@ You'll need the embeded arm compiler, nodeJS 16, and a few python libraries, if 
 yay -S base-devel arm-none-eabi-gcc numworks-udev nvm nodejs npm
 ```
 The first two packages allow you to compile the project, numworks-udev allows WebDFU and by extention NWLink to see the calculator as the calculator, and the last three are for the packaging of the app, nvm allows you to switch nodeJS version which is usefull because to my knowledge NWLink doesn't work on versions higher than 16 and npm is just node's package manager.
+To compile the project just run
+```
+make
+```
+you can also directly send it to your calculator by running
+```
+make run
+```
