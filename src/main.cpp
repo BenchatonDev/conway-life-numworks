@@ -91,7 +91,7 @@ void place_cell(int16_t x, int16_t y) {
 void kill_cell(int16_t x, int16_t y) {
     for (uint16_t i = 0; i < activeCount; i++) {
         if (activeCells[i].x == x && activeCells[i].y == y) {
-            activeCells[i] = activeCells[activeCount - 1];  // swap with last element
+            activeCells[i] = activeCells[activeCount - 1];
             activeCount--;
             break;
         }
